@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 :root {
     font-size: 62.5%;
     --default-border: 0.1rem solid rgba(0, 0, 0, 0.15);
@@ -29,10 +30,12 @@ body {
 
 main {
     grid-area: form;
+    box-sizing: border-box;
 }
 
 aside {
     grid-area: check;
+    box-sizing: border-box;
 }
 
 aside h1 {
@@ -49,6 +52,7 @@ aside img {
 }
 
 main {
+
     position: relative;
     grid-area: form;
     width: 60rem;
@@ -100,16 +104,16 @@ main .actions a+a {
 }
 
 main footer p {
-font-size: 1.6rem;
-margin-top: 8rem;
+    font-size: 1.6rem;
+    margin-top: 8rem;
 }
 
 main footer a {
-margin-top: 1rem;
-font-size: 1.8rem;
-display: block;
-text-align: center;
-color: #000;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+    color: #000;
 }
 
 main form {
@@ -168,4 +172,10 @@ main form input + button {
     color: #26a7eb;
     font-size: 2.4rem;
     cursor: pointer;
+}
+
+main #input-field {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    padding: 1.5rem;
 }
